@@ -1,0 +1,220 @@
+.fondo{
+   /* background: rgb(105,5,5);
+background: linear-gradient(0deg, rgba(105,5,5,1) 31%, rgba(134,7,7,1) 46%, rgba(162,7,7,1) 65%, rgba(221,7,7,1) 85%);*/
+background-color: #040404;
+}
+
+/* Navbar */
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border:none;
+}
+.navcentro{
+    margin-left: 36%;
+}
+.navbar-nav{
+    width: 100%;
+}
+
+.zeropad{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.navColor{
+    /*background-color: #333333 !important;*/
+    background-color: #d5c63e !important;
+}
+.marginImg{
+   
+    width: 400px;
+}
+.aFont{
+    font-size: 26px;
+}
+/* Navbar */
+
+
+/* li */
+.borderliL{
+    border-left: 1px solid black;
+}
+.borderliR{
+    border-right: 1px solid black;
+}
+/* li */
+
+/*@media*/
+@media (max-width: 991px) {
+    .borderliL{
+        border-left: 0px;
+    }
+    .borderliR{
+        border-right: 0px;
+    }
+    .borderliB{
+        border-bottom: 1px solid black;
+    }
+    .navcentro{
+        margin-left: 1%;
+    }
+    .logopa{
+        padding-left: 25px;
+    }
+    .bt1{
+        margin-top: 0px !important;
+    }
+    .bt2{
+        margin-bottom: 15px;
+    }
+    .bt3{
+        padding-left: 0px;
+    }
+    .marginImg{
+        margin-left: 0px;
+        width: 300px;
+    }
+    .aFont{
+        font-size: 18px;
+    }
+    .text-center1{
+        text-align: center;
+    }
+    .h1Font{
+        font-size: 48px !important;
+    }
+    .card-img-top {
+        width: 100% !important;
+        height: 40vw !important;
+        object-fit: cover !important;
+    }
+}
+/*@media*/
+
+/* a */
+a{
+    /*color: white !important;*/
+    color: black;
+}
+.azoom:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+/* a */
+/*botones contacto*/
+.back{
+    background-color: #d5c63e;
+    color: black;
+}
+.bt1{
+   margin-top: 40px;
+   margin-bottom: 10px;
+}
+.zoom{
+    zoom: 1.2;
+}
+.back:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+/*botones contacto*/
+
+/*Span*/
+.SpanCW{
+ color:white;
+}
+.SpanRed{
+    color:red;
+}
+
+/*Span/*
+
+
+
+/*div*/
+.marTo{
+    margin-top: 110px;
+}
+.rounded{
+    border-radius: 25px !important;
+}
+.divCI{
+
+text-align: justify;
+margin-left: 20px;
+border-bottom: 3px solid #040404 ;
+
+}
+
+.divCD{
+    text-align: justify;
+    
+    border-bottom: 3px solid #040404 ;
+    
+    }
+/*div*/
+
+/*h1*/
+.h1Font{
+    font-size: 56px;
+    text-align: center;
+}
+
+/*h1*/
+
+/* card img */
+.roundedTop{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* carImg */
+
+/* p */
+.pJ{
+text-align: justify;
+}
+/*  */
+
+/* Login */
+.amarillo{
+    color: #d5c63e;
+}
+
+.botonBlanco{
+    color: white;
+    border-color: white;
+}
+
+.botonBlanco:hover{
+    background-color: #d5c63e ;
+}
+
+.liH:hover{
+    color:#d5c63e ;
+}
+/*  */
+
+/*  Contact */
+.contactFondo1{
+    background-image: url("../img/fondo1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contactFondo2{
+    background-image: url("../img/fondo2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.h1Border{
+    border-bottom: 2px solid #d5c63e;
+}
+/*  */
